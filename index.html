@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/x-icon" href="assets/logo.ico" />
+    <link rel="icon" type="image/x-icon" href="public/logo.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       href="https://api.fontshare.com/v2/css?f[]=general-sans@500,600,400,700&display=swap"
@@ -26,15 +26,15 @@
             <a class="header__link" href="#contact">Contact</a>
           </li>
           <li>
-            <a target="_blank" href="https://www.linkedin.com/in/philip-meliotis-628099250/"><img class="darkmode__icon " src="./assets/social_media/linkedin.png" alt="linkedin"></a>
+            <a target="_blank" href="https://www.linkedin.com/in/philip-meliotis-628099250/"><img class="darkmode__icon " src="./linkedin.png" alt="linkedin"></a>
           </li>
           <li>
-            <a  target="_blank" href="https://github.com/pmeliotis"><img class="darkmode__icon" src="./assets/social_media/github.png" alt="github"></a>
+            <a  target="_blank" href="https://github.com/pmeliotis"><img class="darkmode__icon" src="./github.png" alt="github"></a>
           </li>
           <li class="header__line"></li>
 
           <li>
-            <button id="theme-toggle" class="header__sun">
+            <button aria-label="them-toggle btn" id="theme-toggle" class="header__sun">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
@@ -47,10 +47,10 @@
             </button>
           </li>
           <li>
-            <a class="header__resume btn" href="#" onclick="window.open ('/assets/cv-philip-meliotis.pdf')">Resume</a>
+            <a class="header__resume btn" href="#" onclick="window.open ('./cv-philip-meliotis.pdf')">Resume</a>
           </li>
         </ul>
-        <button class="header__bars">
+        <button aria-label="mobile nav" class="header__bars">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
@@ -79,10 +79,10 @@
             <a class="mobile-nav__link" href="#contact">Contact</a>
           </li>
           <li>
-            <a target="_blank" href="https://www.linkedin.com/in/philip-meliotis-628099250/"><img class="darkmode__icon " src="./assets/social_media/linkedin.png" alt="linkedin"></a>
+            <a target="_blank" href="https://www.linkedin.com/in/philip-meliotis-628099250/"><img class="darkmode__icon " src="./linkedin.png" alt="linkedin"></a>
           </li>
           <li>
-            <a  target="_blank" href="https://github.com/pmeliotis"><img class="darkmode__icon" src="./assets/social_media/github.png" alt="github"></a>
+            <a  target="_blank" href="https://github.com/pmeliotis"><img class="darkmode__icon" src="./github.png" alt="github"></a>
           </li>
           <li class="mobile-nav__link-line"></li>
           <li>
@@ -104,7 +104,7 @@
           </li>
           <li>
             
-            <a class="mobile-nav__btn btn" href="#" onclick="window.open ('/assets/cv-philip-meliotis.pdf')">Resume</a>
+            <a class="mobile-nav__btn btn" href="#" onclick="window.open ('./cv-philip-meliotis.pdf')">Resume</a>
           </li>
         </ul>
       </nav>
@@ -152,7 +152,7 @@
               <img
                  
                 class="icon"
-                src="/assets/tech/html.png"
+                src="./html.png"
                 alt="Experience icon"
               />
               <div>
@@ -163,7 +163,7 @@
                 <img
                   
                   class="icon"
-                  src="/assets/tech/css.png"
+                  src="./css.png"
                   alt="Experience icon"
                 />
                 <div>
@@ -174,7 +174,7 @@
                 <img
                   
                   class="icon"
-                  src="/assets/tech/javascript.png"
+                  src="./javascript.png"
                   alt="Experience icon"
                 />
                 <div>
@@ -185,7 +185,7 @@
                 <img
                   
                   class="icon"
-                  src="/assets/tech/reactjs.png"
+                  src="./reactjs.png"
                   alt="Experience icon"
                 />
                 <div>
@@ -196,7 +196,7 @@
                 <img
                   
                   class="icon"
-                  src="/assets/tech/tailwind.png"
+                  src="./tailwind.png"
                   alt="Experience icon"
                 />
                 <div>
@@ -207,7 +207,7 @@
                 <img
                   
                   class="icon"
-                  src="/assets/tech/git.png"
+                  src="./git.png"
                   alt="Experience icon"
                 />
                 <div>
@@ -218,7 +218,7 @@
                 <img
                    
                   class="icon"
-                  src="/assets/tech/nextjs.png"
+                  src="./nextjs.png"
                   alt="Experience icon"
                 />
                 <div>
@@ -231,23 +231,22 @@
        <section id="featured" class="featured container section">
         <section class="work container section">
           <h2 class="work__title">Projects</h2>
-          <p class="work__project-description1">I like to stay busy by working on some side projects. Take a look at some of the web applications I have created.</p>
+          <p class="work__description">I like to stay busy by working on some side projects. Take a look at some of the web applications I have created.</p>
            <a target="_blank" href="https://pmeliotis-real-estate-project.vercel.app/">
              <img   class="work__img-wrapper work__image1">
             </div></a>
               <h3 class="work__project-title">Rent Home</h3>
               <div class="work__img-wrapper work__image1">
-                <div class="featured__img-wrapper">
                  <img
                  class="lazy loading"
                  src="https://via.placeholder.com/1920x1080"
-                 data-src="/assets/projects/renthome.png"
+                 data-src="./renthome.png"
                  alt="Rent Home"
                   />
-                 </div>
               </div>
                  <div class="work__project work__content1">
-                 <p class="work__project-description1">Web-based platform that allows users to search, rent, and buy a home in United Arab Emirates.</p>
+                  <h3 class="work__project-subtitle">Rent Home</h3>
+                  <p class="work__project-description1">Web-based platform that allows users to search, rent, and buy a home in United Arab Emirates.</p>
                    <div>
                      <a target="_blank" href="https://pmeliotis-real-estate-project.vercel.app/"><button class="btn work__project-btn ">View project</button></a>
                      <a target="_blank" href="https://github.com/pmeliotis/real_estate_project"><button class="btn work__project-btn ">Source Code</button></a>
