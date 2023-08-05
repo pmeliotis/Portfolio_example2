@@ -1,0 +1,25 @@
+.darkmode__icon {
+    display: flex;
+    justify-content: center;
+    color: var(--clr-slate800);
+    width: 40px;
+    margin: auto;
+    transition: color 0.3s;
+    
+}
+
+.darkmode__icon:hover{
+    color: var(--clr-slate800);
+}
+
+.darkmode__icon {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width:20px;
+    height:20px;
+    color: var(--clr-slate800);
+}
+
+

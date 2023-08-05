@@ -1,0 +1,7 @@
+import "/styles/modern-normalize.css?t=1687865397710";
+import "/styles/style.css?t=1687880044699";
+import "/styles/components/header.css?t=1687883522293";
+import "/styles/components/hero.css?t=1688043213624"
+import "/styles/components/about.css?t=1688049673480"
+import"/styles/utils.css?t=1687871747652";
+
